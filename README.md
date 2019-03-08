@@ -1,2 +1,3 @@
 # ReactNativePractice
-勉強で書いたコードを晒す
+ReactNativeExpoの勉強で書いたコードを晒す
+
