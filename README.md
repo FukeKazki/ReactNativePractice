@@ -6,3 +6,4 @@
 * TouchableOpacity  タップしたときの透明度の調整
 * Location  位置情報の取得
 * TextInput テキストの入力機能
+* Alert-Button  ボタンをタップするとアラートが表示される機能
