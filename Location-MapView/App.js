@@ -10,6 +10,7 @@ export default class App extends React.Component {
       //初期化する
       locationResult: null,
       region: {
+        //これをnullにするとMapViewが行われない(初期値をなにか決めておく)
         latitude: -3.7,
         longitude: -38,
         latitudeDelta: 0.2,
