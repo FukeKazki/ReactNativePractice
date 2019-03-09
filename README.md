@@ -7,3 +7,4 @@
 * TextInput テキストの入力機能
 * Alert-Button  ボタンをタップするとアラートが表示される機能
 * WebView   外部リンクを表示する
+* Picker    Picker機能
