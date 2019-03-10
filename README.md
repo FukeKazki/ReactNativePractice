@@ -9,3 +9,4 @@
 * WebView   外部リンクを表示する
 * Picker    Picker機能
 * Modal     モーダルの表示
+* Switch    Switch機能
