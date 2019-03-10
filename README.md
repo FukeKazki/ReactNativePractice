@@ -12,3 +12,4 @@
 * Switch    スイッチ機能
 * Slider    スライダー機能
 * ReactNavigation   ナビゲーション,ページ遷移機能
+* StyleChange   propsの値によってstyleを変更する
