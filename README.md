@@ -11,3 +11,4 @@
 * Modal     モーダルの表示
 * Switch    スイッチ機能
 * Slider    スライダー機能
+* ReactNavigation   ナビゲーション,ページ遷移機能
