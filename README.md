@@ -13,3 +13,5 @@
 * Slider    スライダー機能
 * ReactNavigation   ナビゲーション,ページ遷移機能
 * StyleChange   stateの値によってstyleを変更する
+* ScrollView    上下にスクロールして表示する機能
+* 実践BottomTabNavigation   ScreenごとにComponentに分けた
