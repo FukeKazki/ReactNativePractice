@@ -17,3 +17,4 @@
 * 実践BottomTabNavigation   ScreenごとにComponentに分けた
 * HTTP      Fetchを使ってサーバーからJSONデータを受け取る
 * AcyncStorage      外部のデーターベースsqLite的なのに保存したりする
+* Camera        カメラの機能(まだ撮影機能つけてない)
