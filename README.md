@@ -16,3 +16,4 @@
 * ScrollView    上下にスクロールして表示する機能
 * 実践BottomTabNavigation   ScreenごとにComponentに分けた
 * HTTP      Fetchを使ってサーバーからJSONデータを受け取る
+* AcyncStorage      外部のデーターベースsqLite的なのに保存したりする
