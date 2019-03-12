@@ -35,14 +35,25 @@ export default class App extends React.Component {
                 latitude: -3.7670799,
                 longitude: -38.5868109
               }}
-              //マーカーのピンの名前 
+              //ピンの名前 
               title={"UniGrande"}
-              //マーカーのピンの説明
+              //ピンの説明
               description={"Você nasceu pra ser grande"}
-              //マーカーの色の設定
+              //ピン色の設定
               pinColor = {"#000000"}
           />
       </MapView>
     );
   }
 }
+/*
+MapView.Marker  Options
+title ピンの名前
+description ピンの説明
+pinColor  ピンの色
+image={requier('')} ピンを任意の画像に変える
+draggable 長押しで移動できる
+coordinate  ピンの座標
+MapView.UrlTile 地図タイルってやつを貼る(よくわからんけど)
+
+*/
