@@ -55,5 +55,5 @@ image={requier('')} ピンを任意の画像に変える
 draggable 長押しで移動できる
 coordinate  ピンの座標
 MapView.UrlTile 地図タイルってやつを貼る(よくわからんけど)
-
+showsUserLocation 自分の位置がハイライトされる
 */
