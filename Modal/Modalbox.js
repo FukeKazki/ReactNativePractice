@@ -6,6 +6,7 @@ import {
   Button,
   TouchableOpacity,
   Alert,
+  ScrollView,
 } from 'react-native';
 import { Constants } from 'expo';
 import Modal from 'react-native-modalbox';
@@ -32,7 +33,7 @@ export default class ModalTester extends React.Component {
           backdropPressToClose={false}
           swipeArea={30}
           >
-          <View style={{ flex: 1, padding: 50 }}>
+          <ScrollView style={{ flex: 1, padding: 50 }}>
             <Text>Hello!</Text>
             <TouchableOpacity onPress={this._toggleModal}>
               <Text>Hide me!</Text>
@@ -40,7 +41,7 @@ export default class ModalTester extends React.Component {
             <TouchableOpacity onPress={this._toggleModal}>
               <Text style={{ padding: 50 }}>Show Modal</Text>
             </TouchableOpacity>
-          </View>
+          </ScrollView>
         </Modal>
       </View>
     );
