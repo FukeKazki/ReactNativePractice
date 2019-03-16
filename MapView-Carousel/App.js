@@ -116,14 +116,6 @@ export default class DemoScreen extends React.Component {
   componentDidMount() {
     //アニメーション用のリスナーをつけます
     this.animation.addListener(({ value }) => {
-      // console.log(value);
-      // let index = Math.floor(value / CARD_WIDTH + 0.4);
-      // if (index >= this.state.markers.length) {
-      //   index = this.state.markers.length - 1;
-      // }
-      // if (index <= 0) {
-      //   index = 0;
-      // }
       let index = value;
       clearTimeout(this.regionTimeout);
       this.regionTimeout = setTimeout(() => {
@@ -231,11 +223,8 @@ export default class DemoScreen extends React.Component {
             renderItem={this._renderItem}
             sliderWidth={width}
             itemWidth={140}
-            onScroll={event => {
-              // console.log('scroll event',event);
-              // console.log(event.nativeEvent.contentOffset.x);
-              // this.setState({scrolledX:event.nativeEvent.contentOffset.x});
-              // this.animation.setValue(event.nativeEvent.contentOffset.x);
+            onScroll={() => {
+              //アクティブなカードのindexをsetする
               this.animation.setValue(this._carousel.currentIndex);
             }}
             useScrollView={true}
